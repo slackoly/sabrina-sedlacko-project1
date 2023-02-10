@@ -25,9 +25,10 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: aliceblue;
     font-size: x-large;
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 75px;
     background-color: red;
+    cursor:pointer;
     animation-name: example;
     animation-duration: .5s;
     animation-iteration-count: infinite;
