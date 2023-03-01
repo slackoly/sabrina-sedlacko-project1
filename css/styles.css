@@ -1,10 +1,7 @@
-li {
-  color:rgb(0, 219, 219)
-}
-
 h1 {
   font-family: 'Times New Roman', Times, serif;
-  color: rgb(210, 210, 235);
+  color: rgb(249, 226, 252);
+  font-size:xx-large;
 }
 
 body {
@@ -12,7 +9,7 @@ body {
     color:orchid;
 }
 
-@keyframes example {
+@keyframes contact {
     0%   {background-color: rgb(255, 0, 0);}
     20%  {background-color: rgb(255, 174, 0);}
     40%  {background-color: rgb(208, 255, 0);}
@@ -21,7 +18,7 @@ body {
     100% {background-color: rgb(255, 28, 236);}
   }
 
-  button {
+  #contact {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: aliceblue;
     font-size: x-large;
@@ -29,7 +26,73 @@ body {
     height: 75px;
     background-color: red;
     cursor:pointer;
-    animation-name: example;
+    animation-name: contact;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes project {
+    0%   {background-color: rgb(255, 174, 0);}
+    20%  {background-color: rgb(208, 255, 0);}
+    40%  {background-color: rgb(49, 224, 255);}
+    60%  {background-color: rgb(55, 0, 255);}
+    80%  {background-color: rgb(255, 28, 236);}
+    100% {background-color: rgb(255, 0, 0);}
+  }
+
+  #project {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    font-size: x-large;
+    width: 150px;
+    height: 75px;
+    background-color: red;
+    cursor:pointer;
+    animation-name: project;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes blog {
+    0%   {background-color: rgb(208, 255, 0);}
+    20%  {background-color: rgb(49, 224, 255);}
+    40%  {background-color: rgb(55, 0, 255);}
+    60%  {background-color: rgb(255, 28, 236);}
+    80%  {background-color: rgb(255, 0, 0);}
+    100% {background-color: rgb(255, 174, 0);}
+  }
+
+  #blog {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    font-size: x-large;
+    width: 150px;
+    height: 75px;
+    background-color: red;
+    cursor:pointer;
+    animation-name: blog;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes website {
+    0%   {background-color: rgb(49, 224, 255);}
+    20%  {background-color: rgb(55, 0, 255);}
+    40%  {background-color: rgb(255, 28, 236);}
+    60%  {background-color: rgb(255, 0, 0);}
+    80%  {background-color: rgb(255, 174, 0);}
+    100% {background-color: rgb(208, 255, 0);}
+  }
+
+  #website {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    font-size: x-large;
+    width: 150px;
+    height: 75px;
+    background-color: red;
+    cursor:pointer;
+    animation-name: website;
     animation-duration: .5s;
     animation-iteration-count: infinite;
   }
