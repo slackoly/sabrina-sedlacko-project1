@@ -1,12 +1,12 @@
 h1 {
   font-family: 'Times New Roman', Times, serif;
-  color: rgb(249, 226, 252);
+  color: rgb(254, 250, 255);
   font-size:xx-large;
 }
 
 body {
     font-family: "comic sans ms";
-    color:orchid;
+    color:rgb(42, 255, 237);
 }
 
 @keyframes contact {
@@ -96,3 +96,5 @@ body {
     animation-duration: .5s;
     animation-iteration-count: infinite;
   }
+
+  
